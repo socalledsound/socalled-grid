@@ -1,9 +1,12 @@
 import React from 'react';
+import { wrapGrid } from 'animate-css-grid'
 import Card from './Card';
+import { projects } from '../assets/projects';
 class Grid extends React.Component {
     componentDidMount() {
       // will automatically clean itself up when dom node is removed
     //   animateCSSGrid.wrapGrid(this.grid, { easing : 'backOut', stagger: 10, duration: 400 });
+      wrapGrid(this.grid, { easing : 'backOut', stagger: 10, duration: 400 })
     }
   
     render() {
@@ -13,7 +16,8 @@ class Grid extends React.Component {
         .forEach(k => (classes += " " + k));
       return (
         <div className={classes} ref={el => (this.grid = el)}>
-          {[...Array(10).keys()].map(i => <Card key={i} />)}
+          {/* {[...Array(10).keys()].map(i => <Card key={i} />)} */}
+          { projects.map( project => <Card key={project.id} project={project}/>)}
         </div>
       );
     }

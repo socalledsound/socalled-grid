@@ -9,7 +9,7 @@ const App = () => {
         <Switch>
             <Route exact path="/" component={GridContainer}/>
             <Route path="/about" component={About}/>
-            <Redirect to="/" />
+            {/* <Redirect to="/" /> */}
         </Switch>
      );
 }
