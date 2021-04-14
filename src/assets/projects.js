@@ -2,6 +2,14 @@ import { images } from './images';
 
 export const projects = [
     {
+        id: 24,
+        title: 'so many birds',
+        url: '/birds',
+        imageURL : images.birds,
+        code : null, 
+        description : "some fun little bird companions for your time at home."
+    },
+    {
         id: 0,
         title: 'this is not la selva',
         url: 'http://www.thisisnotlaselva.net',
@@ -15,7 +23,7 @@ export const projects = [
         url: 'https://socalledsound.github.io/sfx-game-v2',
         imageURL : images.sfxGame,
         code : null, 
-        description : 'soundshift is sort of a clone of typeshift by kyle gage, but with sound.'
+        description : "soundshift is a game made with canvas and p5,js, inspired by the game typeshift by kyle gage, but with sounds."
 
     },
     {

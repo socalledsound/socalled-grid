@@ -1,5 +1,6 @@
-import laSelva from './img/laSelvaStill.jpg';
-import owlDervish from './img/owl-dervish.jpg';
+import birds from './img/birds2.jpg'
+import laSelva from './img/laSelvaStill.jpg'
+import owlDervish from './img/owl-dervish.jpg'
 import sfxGame from './img/sfx-game.jpg'
 import humHuman from './img/humHuman.jpg'
 import surprise from './img/surprise.jpg'
@@ -20,6 +21,7 @@ import wan from './img/wanTooSmall.jpg'
 // './img/'
 
 export const images = {
+    birds,
     laSelva,
     owlDervish,
     sfxGame,
