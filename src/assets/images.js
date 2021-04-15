@@ -1,4 +1,5 @@
 import birds from './img/birds2.jpg'
+import m3to from './img/m3to-test.jpg'
 import laSelva from './img/laSelvaStill.jpg'
 import owlDervish from './img/owl-dervish.jpg'
 import sfxGame from './img/sfx-game.jpg'
@@ -22,6 +23,7 @@ import wan from './img/wanTooSmall.jpg'
 
 export const images = {
     birds,
+    m3to,
     laSelva,
     owlDervish,
     sfxGame,
