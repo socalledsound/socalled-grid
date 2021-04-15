@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import GridContainer from './components/GridContainer';
 import About from './components/About';
-import BirdsApp from './projects/birds/App';
+// import BirdsApp from './projects/birds/App';
 
 
 const App = () => {
