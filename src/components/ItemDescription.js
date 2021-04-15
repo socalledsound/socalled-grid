@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 const styles = {
@@ -19,7 +19,15 @@ const styles = {
         // }
       },
       link : {
+        color: '#add8e6',
+        width: '100px',
+        height : '2rem',
         textDecoration : 'none',
+      },
+      hover : {
+        width: '100px',
+        height : '2rem',
+        color: 'aqua',
       },
       description : {
           width : '20rem',
@@ -29,13 +37,24 @@ const styles = {
 }
 
 const ItemDescription = ({project}) => {
+
+
+    const [hover, toggleHover ] = useState(false)
+
     return ( 
         <div style={styles.container}>
             {/* <Link to={{ pathname: project.url }} target="_blank" >
                 <h4 style={styles.title}>{project.title}</h4>
             </Link> */}
             {/* <a href={project.url} target="_blank" rel="noreferrer">{project.title}</a> */}
-            <a href={project.url} style={styles.link}>{project.title}</a>
+            <a 
+                href={project.url} 
+                style={hover ? styles.hover : styles.link}
+                onMouseEnter={() => toggleHover(!hover)}
+                onMouseLeave={() => toggleHover(!hover)}
+                >
+                    {project.title}
+            </a>
             <p style={styles.description}>{project.description}</p>
         </div>
      );

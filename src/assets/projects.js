@@ -4,19 +4,19 @@ export const projects = [
     {
         id: 24,
         title: 'so many birds',
-        url: '/birds',
+        url: 'https://determined-mclean-a05a6d.netlify.app/',
         imageURL : images.birds,
         code : null, 
-        description : "some fun little bird companions for your time at home."
+        description : "some fun little bird companions for your time at home, made with React/Redux, web audio, SVG and webGL."
     },
 
     {
-        id: 24,
+        id: 25,
         title: 'many many more than one',
         url: '/m3to-test',
         imageURL : images.m3to,
         code : null, 
-        description : "this is a test for a project called 'many many more than one'",
+        description : "this is a test for a project called 'many many more than one', made with React/Redux, web audio, SVG and webGL.",
     },
 
     {
@@ -29,6 +29,14 @@ export const projects = [
 
     },
     {
+        id: 26,
+        title: "language removal services",
+        url: 'http://languageremoval.com',
+        imageURL : images.lrs,
+        code : null, 
+        description : "LRS was my first website, and my first company, back in 1999.  It's been my most durable project, with shows around the world for many years.  I think it's mostly retired now that everyone on youtube seems to have picked up the technique.  I updated the site around 2012 using vue.js.",
+    },
+    {
         id: 0,
         title: 'this is not la selva',
         url: 'http://www.thisisnotlaselva.net',
@@ -36,6 +44,15 @@ export const projects = [
         code : null, 
         description : "A kinda sorta homage to David Tudor and Francisco Lopez.  Or maybe I'm just having fun.  The sounds come from cartoon sound effects libraries."
     },
+    {
+        id: 27,
+        title: "badu eyes #23",
+        url: 'https://socalledsound.github.io/baduEyes/',
+        imageURL : images.baduEyes,
+        code : null, 
+        description : "generative pixel fun with canvas and p5",
+    },
+
     {
         id: 2,
         title: 'owl dervish character',
@@ -47,7 +64,7 @@ export const projects = [
     },
     {
         id: 3,
-        name: 'hum - human',
+        title: 'hum - human',
         url: 'https://www.youtube.com/embed/eYW16vkYZg4',
         imageURL : images.humHuman,
         code : null, 
@@ -55,7 +72,7 @@ export const projects = [
     },
     {
         id: 4,
-        name: 'surprise!',
+        title: 'surprise!',
         url: 'https://www.youtube.com/embed/OaEhp_vaNEI',
         imageURL : images.surprise,
         code : null, 
@@ -63,7 +80,7 @@ export const projects = [
     },
     {
         id: 5,
-        name: 'the sound of fire',
+        title: 'the sound of fire',
         url: images.soundOfFire,
         imageURL : images.soundOfFire,
         code : null, 
@@ -72,7 +89,7 @@ export const projects = [
     },
     {
         id: 6,
-        name: 'silence, please',
+        title: 'silence, please',
         url: './img/silencePleaseTable.jpg',
         imageURL : images.silencePlease,
         code : null, 
@@ -81,7 +98,7 @@ export const projects = [
     },
     {
         id: 7,
-        name: 'flesh ++ blood',
+        title: 'flesh ++ blood',
         url: 'https://www.youtube.com/embed/EOWURxOJRl8',
         imageURL : images.fleshBlood,
         code : null, 
@@ -90,7 +107,7 @@ export const projects = [
     },
     {
         id: 8,
-        name: 'full metal jackets',
+        title: 'full metal jackets',
         url: 'https://socalledsound.github.io/owlDervish1/',
         imageURL : images.fmj,
         code : null, 
@@ -99,7 +116,7 @@ export const projects = [
     },
     {
         id: 9,
-        name: 'library book',
+        title: 'library book',
         url: null,
         imageURL : images.libraryBook,
         code : null, 
@@ -108,7 +125,7 @@ export const projects = [
     },
     {
         id: 10,
-        name: 'room tone',
+        title: 'room tone',
         url: 'https://www.youtube.com/embed/uE_f1gvxSAM',
         imageURL : images.roomTone,
         code : null, 
@@ -116,7 +133,7 @@ export const projects = [
     },
     {
         id: 11,
-        name: 'the sound of grass growing',
+        title: 'the sound of grass growing',
         url: 'https://socalledsound.github.io/owlDervish1/',
         imageURL : images.grassGrowing,
         code : null, 
@@ -124,7 +141,7 @@ export const projects = [
     },
     // {
     //     id: 12,
-    //     name: 'silence, please',
+    //     title: 'silence, please',
     //     url: 'https://socalledsound.github.io/owlDervish1/',
     //     imageURL : images.nimmoi,
     //     code : null, 
@@ -133,7 +150,7 @@ export const projects = [
     // },
     // {
     //     id: 12,
-    //     name: 'silence, please',
+    //     title: 'silence, please',
     //     url: 'https://socalledsound.github.io/owlDervish1/',
     //     imageURL : images.weWillLive,
     //     code : null, 
@@ -142,7 +159,7 @@ export const projects = [
     // },
     {
         id: 12,
-        name: 'what america needs',
+        title: 'what america needs',
         url: 'https://www.youtube.com/embed/AxT_BGVrLVM',
         imageURL : images.wan,
         code : null, 

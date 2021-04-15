@@ -16,12 +16,16 @@ import grassGrowing from './img/grassgrowing1.jpg'
 import nimmoi from './img/NIMMOI.jpg'
 import weWillLive from './img/weWillLiveMosque.jpg'
 import wan from './img/wanTooSmall.jpg'
+import lrs from './img/lrs.jpg'
+import baduEyes from './img/badu-eyes.jpg'
 // './img/'
 // './img/'
 // './img/'
 // './img/'
 
 export const images = {
+    lrs,
+    baduEyes,
     birds,
     m3to,
     laSelva,

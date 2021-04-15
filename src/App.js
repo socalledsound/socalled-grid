@@ -10,7 +10,7 @@ const App = () => {
         <Switch>
             <Route exact path="/" component={GridContainer}/>
             <Route path="/about" component={About}/>
-            <Route path="/birds" component={BirdsApp}/>
+            {/* <Route path="/birds" component={BirdsApp}/> */}
             {/* <Redirect to="/" /> */}
         </Switch>
      );
