@@ -42,6 +42,9 @@ const useStyles = makeStyles({
 
 const navLinks = [
     { title: 'about', path: '/about'},
+    { title : 'projects', path: '/projects'},
+    { title : 'experiments', path: '/fragments'},
+    {title : 'blog', path: '/blog'},
     {title : 'contact', path: '/contact'},
 ]
 

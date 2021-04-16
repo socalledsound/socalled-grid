@@ -13,10 +13,10 @@ export const projects = [
     {
         id: 25,
         title: 'many many more than one',
-        url: '/m3to-test',
+        url: 'https://loving-swartz-202681.netlify.app/',
         imageURL : images.m3to,
         code : null, 
-        description : "this is a test for a project called 'many many more than one', made with React/Redux, web audio, SVG and webGL.",
+        description : "this is a little test for a project called 'many many more than one', made with React/Redux, web audio, SVG and webGL.",
     },
 
     {
