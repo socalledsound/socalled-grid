@@ -24,7 +24,7 @@ export const projects = [
         url: 'https://loving-swartz-202681.netlify.app/',
         imageURL : images.m3to,
         code : null, 
-        description : "this is a little test for a project called 'many many more than one', made with React/Redux, web audio, SVG and webGL.",
+        description : "this is a little test for a project called 'many many more than one', made with React/Redux, web audio, SVG and webGL.  The svg animations work fine locally but not deployed, I'll be switching it over to canvas in a bit and see if that helps.",
     },
 
     {
