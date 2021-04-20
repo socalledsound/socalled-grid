@@ -2,6 +2,14 @@ import { images } from './images';
 
 export const projects = [
     {
+        id: 28,
+        title: 'silence farm',
+        url: 'https://priceless-saha-f86b8e.netlify.app/',
+        imageURL : images.silenceFarm,
+        code : null, 
+        description : "This isn't done yet but it's what I'm working on now, farming silences with React/Redux/Canvas and web audio."
+    },
+    {
         id: 24,
         title: 'so many birds',
         url: 'https://determined-mclean-a05a6d.netlify.app/',

@@ -18,12 +18,14 @@ import weWillLive from './img/weWillLiveMosque.jpg'
 import wan from './img/wanTooSmall.jpg'
 import lrs from './img/lrs.jpg'
 import baduEyes from './img/badu-eyes.jpg'
+import silenceFarm from './img/silence-farm.jpg'
 // './img/'
 // './img/'
 // './img/'
 // './img/'
 
 export const images = {
+    silenceFarm,
     lrs,
     baduEyes,
     birds,
